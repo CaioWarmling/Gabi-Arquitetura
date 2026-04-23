@@ -460,6 +460,12 @@ form input:focus, form textarea:focus {
     color: var(--cor-branca);
     text-transform: uppercase;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.btn-enviar:hover {
+    background-color: var(--cor-secundaria);
 }
 
 /* ====== MENU HAMBÚRGUER (escondido no desktop) ====== */
