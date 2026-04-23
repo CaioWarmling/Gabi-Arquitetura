@@ -48,5 +48,7 @@ function enviar(event) {
     const url = `https://wa.me/${telefone}?text=${msgCompactada}`
 
     window.open(url, '_blank')
+
+    event.preventDefault()
     
 }
